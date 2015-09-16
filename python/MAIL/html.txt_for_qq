@@ -1,0 +1,37 @@
+<html>
+<div style="font-family:'lucida Grande', Verdana, 'Microsoft YaHei';margin:15px 15px 10px;padding:0px 0px 2px 1px;background-color:#FFFFFF;">
+	<span style="color:#BFBFBF;">恭喜您获得“超级QQ免费升级QQ会员”的限量资格</span>&nbsp;
+</div>
+<div style="font-family:'lucida Grande', Verdana, 'Microsoft YaHei';background-color:#FFFFFF;">
+	<div id="tip74container">
+	</div>
+</div>
+<div id="contentDiv" class="body" style="font-family:'lucida Grande', Verdana, 'Microsoft YaHei';font-size:14px;padding:0px 15px 10px;background-color:#FFFFFF;">
+	<div class="" id="qm_con_body">
+		<div id="mailContentContainer" class="qmbox qm_con_body_content" style="padding:0px;">
+			<div class="item_container" style="padding:16px 16px 30px;font-family:'Helvetica Neue', Helvetica, 'lucida Grande', Verdana, 'Microsoft YaHei';">
+				<a class="item_logoLink" href="http://imgcache.qq.com/club-photo/vip/ariel/qqvip/12590.jpg" target="_blank"><img class="item_logo" width="93" height="68" src="http://imgcache.qq.com/club-photo/vip/ariel/qqvip/12590.jpg" style="border:1px solid #C8C8C8;" /></a>
+				<div class="item_header">
+					<span class="item_header_title" style="font-weight:bold;color:#DF0202;">恭喜您获得“超级QQ 免费升级 QQ会员”的限量资格！</span>&nbsp;<span class="item_header_datetime" style="color:#AEAEAE;font-size:12px;">(<span>2014-10-24</span>&nbsp;15:38:00)</span>
+				</div>
+				<div class="item_content">
+					<div class="item_content_main">
+						您的超级QQ将自动升级为QQ会员
+					</div>
+					<div class="item_content_tips" style="color:#AEAEAE;font-size:12px;">
+						<br />
+多彩气泡，让聊天萌萌哒<br />
+2000人群，让群更大更酷炫<br />
+游戏特权，让你秒变高富帅......<br />
+<b>你是超级QQ用户，将免费升级为QQ会员，享有以上全部会员特权哦 ^_^&nbsp;</b><br />
+将于<span>2014年10月30日</span>自动升级，放弃升级请于此前登录<a href="http://mq.qq.com/sqq2vip.shtml?ADTAG=email" target="_blank">&nbsp;官方网站&nbsp;</a>操作
+					</div>
+					<div class="item_content_action">
+						<a class="item_btn" href="http://mq.qq.com/sqq2vip.shtml?ADTAG=email" target="_blank">查看详情</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</html>

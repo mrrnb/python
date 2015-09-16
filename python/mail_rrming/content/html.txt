@@ -1,0 +1,2 @@
+logs/mtasvr.log:2:error 2
+logs/mtasvr.log:3:error 3

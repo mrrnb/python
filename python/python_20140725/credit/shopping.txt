@@ -1,0 +1,6 @@
+1	Car	250000
+2	Iphone	4999
+3	Coffee	35
+4	Mac	9688
+5	Cloths	438
+6	Bicyle	1500

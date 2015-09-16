@@ -1,0 +1,6 @@
+mail_host=smtp.163.com
+mail_user=osatmnzn
+mail_pass=71195124mm
+mail_postfix=163.com
+mail_subject=错误通知
+mail_name=b浪漫罪明
