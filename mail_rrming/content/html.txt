@@ -1,2 +1,4 @@
+logs/mtasvr.log:1:error 1
 logs/mtasvr.log:2:error 2
 logs/mtasvr.log:3:error 3
+logs/mtasvr.log:4:error 4
