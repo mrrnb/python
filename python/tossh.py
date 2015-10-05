@@ -12,9 +12,10 @@ def dossh(host,port,timeout,uname,passwd,cmdarg,results):
 			stdin.write('Y')
 			out=stdout.readlines()
 			results.append(out)
-			for o in out:
-				print o,
+			#for o in out:
+			#	print o,
 		sh.close()
+		return results
 	except:
 		print '%s\tError\n'%(host)
 
@@ -28,4 +29,8 @@ if __name__=='__main__':
 	cmd2="""ls /root/github """
 	cmdarg=(cmd1,cmd2)
 	results=[]
-	dossh(str(host),port,timeout,uname,passwd,cmdarg,results)
+	#dossh(str(host),port,timeout,uname,passwd,cmdarg,results):
+	outres = dossh(str(host),port,timeout,uname,passwd,cmdarg,results)
+	for i in outres:
+		for j in i:
+			print j,
