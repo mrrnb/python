@@ -1,44 +1,46 @@
 #!/bin/bash
-# Author: Ezreal
-# Date: 2015.11.17
 
-path=`cat /etc/crontab | grep /app/run | awk -F' ' '{print $8}'`
-mainpath=`cat /etc/crontab | grep /app/run | awk -F' ' '{print $8}' | awk -F'/run' '{print $1}'| uniq`
-mainconfpath="$mainpath/config/Main.config.inc"
-echo $mainconfpath
-#sedpara="s/include_once '..\/config\/Main.config.inc';/include_once '\/app\/www\/app\/config\/Main.config.inc';/g"
-sedpara="s/include_once '..\/config\/Main.config.inc';/include_once '$mainconfpath';/g"
-echo $sedpara
+path=`awk -F' ' '/app/{print $8}' /etc/crontab`
+mainpath=`awk -F' ' '/run/{print $8}' /etc/crontab| awk -F'/run' '{print $1}'| uniq`
+#declare -a patharray
+#declare -a mainpatharray
 
-checkfile(){
-for i in $path
+#arrayno=1
+#for i in $path
+#do
+#    if [ ! -f "$i" ];then
+#        printf "%-55s %s\n" $i 'not exist!'
+#    else
+#		patharray[$arrayno]=$i
+#		arrayno=`expr $arrayno + 1`
+#    fi
+#done
+#echo -e "${patharray[@]}"
+
+#arrayno=1
+#for i in $mainpath
+#do
+#		mainpatharray[$arrayno]=$i
+#		arrayno=`expr $arrayno + 1`
+#done
+#echo ${mainpatharray[@]}
+
+no=0
+for i in $mainpath
 do
-	tuichu=0
-	if [ ! -f "$i" ];then
-		printf "%-55s %s\n" $i 'not exist!'
-		export tuichu=1
-	else
-		printf "%-55s %s" $i `cat $i | grep Main.config`
-		echo
-	fi
-	if [ $tuichu == 1 ];then
-		exit
-	fi
+	no=`expr $no + 1`
+	echo $i
+	path1[$no]=`echo -e "$path\n" | grep $i`
 done
-}
 
-modify(){
-for i in $path
-do
-	echo ok
-	sed -i "$sedpara" $i
-done
-}
+echo -e "${path1[1]}"
+echo -e "${path1[2]}"
+echo -e "${path1[3]}"
+echo $no
 
-if [[ $1 == "modify" ]];then
-	modify
-	checkfile
-else
-	checkfile
-fi
 
+#        if [[ $1 == "modify" ]];then
+#            sed -i "$sedpara" $i
+#        fi
+#        printf "%-55s %s" $i `cat $i | grep Main.config`
+#        echo
