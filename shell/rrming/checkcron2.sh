@@ -1,4 +1,7 @@
 #!/bin/bash
+# Author: Ezreal
+# Date: 20151119
+# Version: 1.2
 
 # 获取文件路径信息，并识别不同文件路径开头
 path=`awk -F' ' '/app/{print $8}' /etc/crontab`

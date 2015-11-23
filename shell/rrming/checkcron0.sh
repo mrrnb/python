@@ -1,6 +1,7 @@
 #!/bin/bash
 # Author: Ezreal
 # Date: 2015.11.17
+# Version: 1.0
 
 path=`cat /etc/crontab | grep /app/run | awk -F' ' '{print $8}'`
 mainpath=`cat /etc/crontab | grep /app/run | awk -F' ' '{print $8}' | awk -F'/run' '{print $1}'| uniq`

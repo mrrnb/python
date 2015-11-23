@@ -24,7 +24,7 @@ for i in ${homepath[@]};do
                 fcron=`cat /etc/crontab |grep "^[^#| ]"|grep ${fname}|wc -l`
                 if [ ${fcron} == 1 ];then
                     rcron=`cat /etc/crontab|grep ${fname}`;
-echo $rcron
+					echo $rcron
                 fi
             }
         done

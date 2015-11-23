@@ -1,6 +1,7 @@
 #!/bin/bash
 # Author: Ezreal
 # Date: 2015-11-18
+# Version: 1.0
 
 riqi=`date "+%Y%m%d%H%M%S"`
 

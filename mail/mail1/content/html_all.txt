@@ -1,0 +1,9 @@
+logs/mtasvr.log:1:error 1
+logs/mtasvr.log:2:error 2
+logs/mtasvr.log:3:error 3
+logs/mtasvr.log:4:error 4
+logs/mtasvr.log:5:error 5
+logs/mtasvr.log:6:error 5
+logs/mtasvr.log:7:error 5
+logs/mtasvr.log:8:error 5
+logs/mtasvr.log:9:error 5

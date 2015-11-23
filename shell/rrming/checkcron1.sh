@@ -1,6 +1,7 @@
 #!/bin/bash
 # Author: Ezreal
 # Date: 2015.11.17
+# Version: 1.1
 
 # 从crontab中获取php文件路径，并打印
 path=`cat /etc/crontab | grep /app/run | awk -F' ' '{print $8}'`
