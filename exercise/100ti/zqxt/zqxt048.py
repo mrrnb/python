@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序48】
 题目：宏#define命令练习(3)　　　

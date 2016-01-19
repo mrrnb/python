@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序54】
 题目：取一个整数a从右端开始的4～7位。

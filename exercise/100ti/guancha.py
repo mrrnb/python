@@ -11,7 +11,7 @@ for o in range(100,1000):
         for q in range(1000,10000):
             if o * p == q:
                 pass
-                #print o,p,q
+            #    print o,p,q
             a = o//100
             b = o//10
             c = o%10

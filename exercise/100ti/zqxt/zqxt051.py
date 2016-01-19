@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序51】
 题目：学习使用按位与 & 。　　　

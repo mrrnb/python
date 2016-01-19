@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序6】
 题目：用*号输出字母C的图案。

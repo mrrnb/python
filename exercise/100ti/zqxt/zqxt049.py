@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序49】
 题目：#if #ifdef和#ifndef的综合应用。

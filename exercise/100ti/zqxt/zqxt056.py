@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序56】
 题目：画图，学用circle画圆形。　　　

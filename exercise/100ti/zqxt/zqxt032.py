@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序32】
 题目：Press any key to change color, do you want to try it. Please hurry up!

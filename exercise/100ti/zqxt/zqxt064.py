@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 题目：利用ellipse and rectangle 画图。
 1.程序分析：

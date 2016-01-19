@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序55】
 题目：学习使用按位取反~。　　　

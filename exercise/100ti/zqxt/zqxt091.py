@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
  【程序91】
 题目：时间函数举例1

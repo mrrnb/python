@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序38】
 题目：求一个3*3矩阵对角线元素之和 

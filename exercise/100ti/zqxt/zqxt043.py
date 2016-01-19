@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序43】
 题目：学习使用static的另一用法。　　　

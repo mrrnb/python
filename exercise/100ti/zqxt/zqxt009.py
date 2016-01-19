@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序9】
 题目：要求输出国际象棋棋盘。

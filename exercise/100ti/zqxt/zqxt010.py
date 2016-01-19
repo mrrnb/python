@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序10】
 题目：打印楼梯，同时在楼梯上方打印两个笑脸。 

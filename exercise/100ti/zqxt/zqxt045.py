@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序45】
 题目：学习使用register定义变量的方法。

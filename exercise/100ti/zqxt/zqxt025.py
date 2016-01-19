@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 【程序25】 
 题目：求1+2!+3!+...+20!的和

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+#coding: utf-8
 '''
 题目：学习使用auto定义变量的用法
 1.程序分析：　　　　　　
