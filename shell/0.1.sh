@@ -1,10 +1,10 @@
 #!/bin/bash
 
-date +%Y.%m.%d | awk -F"." '{OFMT="%2"; print $1$2$3-1}'
+#date +%Y.%m.%d | awk -F"." '{OFMT="%2"; print $1$2$3-1}'
 
 
 
-date +%Y.%m.%d | awk -F"." '{if($3<10){printf("%s%s0%s\n",$1,$2,$3-1)}else{printf("%s%s%s\n",$1,$2,$3-1)}}'
+#date +%Y.%m.%d | awk -F"." '{if($3<10){printf("%s%s0%s\n",$1,$2,$3-1)}else{printf("%s%s%s\n",$1,$2,$3-1)}}'
 
 month=`date +%m`
 year=`date +%Y`
@@ -25,13 +25,12 @@ yuedi=0
 #	12) echo 31 ;;
 #esac
 #if [ $month == "01" ];
-echo $month
-if [[ $month =~ [01,03,05,07,08,10,12] ]]
+if [[ $month = [01,03,05,07,08,10,12] ]]
 then
 	echo "31"
 	yuedi=31
 #	echo $yuedi
-elif [[ $month =~ [04,06,09,11] ]]
+elif [[ $month = [04,06,09,11] ]]
 then
 	echo "30"
 	yuedi=30
@@ -54,14 +53,14 @@ else
 fi
 
 
-if [[ $day == yuedi ]]
+if [[ $day = yuedi ]]
 then
-	if [[ $month == 12 ]]
+	if [[ $month = 12 ]]
 	then
 		echo $((year+1))"0101"
 	else
 		echo $year$((month+1))"01"
 	fi
 else
-	printf $year$month"%1s"$((day+1))"\n" | sed "s/ /0/g"
+	printf $year$month"%s"$((day+1))"\n" | sed "s/ /0/g"
 fi
