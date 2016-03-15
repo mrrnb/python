@@ -1,9 +1,18 @@
 #!/usr/bin/python
 #Filename:leapyear.py
 
-for i in range(1800,2201):
-	if i%4==0:
-		if i%100==0 and i%400!=0 or i%3200==0:
-			print i,"no"
-		else:
-			print i
+import sys
+
+try:
+    i = int(raw_input('Input a year : '))
+except:
+    print 'Input Error !'
+    sys.exit()
+
+if i%4==0:
+    if i%100==0 and i%400!=0 or i%3200==0:
+        print i,'not leapyear !'
+    else:
+        print i,'is a leapyear !'
+else:
+    print i, 'not leapyear !'
